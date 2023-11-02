@@ -1,0 +1,10 @@
+a {
+  &,
+  &:visited,
+  &:focus,
+  &:focus-visible,
+  &:active {
+    color: $color-light;
+    text-decoration: none;
+  }
+}
