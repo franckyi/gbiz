@@ -1,0 +1,20 @@
+.stats {
+  background: $color-dark;
+  color: $color-light;
+  &__list {
+    display: flex;
+    list-style-type: none;
+    gap: 2%;
+  }
+  &__item {
+    background: $color-primary;
+    width: 25%;
+    padding: 2rem;
+    border-radius: 5px;
+    text-align: left;
+  }
+  &__number {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+}

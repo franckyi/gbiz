@@ -1,0 +1,11 @@
+.footer {
+  padding: 2rem;
+  background: $color-dark;
+  text-align: center;
+  &__logo {
+    margin-bottom: 2rem;
+  }
+  &__text {
+    color: $color-primary;
+  }
+}

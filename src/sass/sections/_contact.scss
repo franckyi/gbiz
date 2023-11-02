@@ -1,0 +1,14 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+  margin: 0 auto;
+  &__text {
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+  &__cta {
+    display: flex;
+    gap: 2%;
+  }
+}

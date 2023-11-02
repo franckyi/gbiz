@@ -8,7 +8,7 @@
 @import "sections/services";
 @import "sections/clients";
 @import "sections/reviews";
-@import "sections/results";
+@import "sections/stats";
 @import "sections/contact";
 @import "sections/footer";
 
@@ -18,6 +18,10 @@ body {
 }
 
 section {
-  padding: 2rem;
+  padding: 5rem 2rem;
   text-align: center;
+}
+
+.heading {
+  margin-bottom: 4rem;
 }

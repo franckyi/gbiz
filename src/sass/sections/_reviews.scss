@@ -13,6 +13,11 @@
   }
   &__icon {
     width: 40px;
+    float: left;
+  }
+  &__review {
+    text-align: left;
+    margin-left: 4rem;
   }
   &__author {
     color: gray;
