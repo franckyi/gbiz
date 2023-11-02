@@ -1,0 +1,27 @@
+.services {
+  &__title {
+    margin-bottom: 1rem;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem auto;
+    max-width: 1280px;
+    gap: 2rem;
+    list-style-type: none;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+    padding: 2rem;
+    text-align: left;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    line-height: 1.5;
+  }
+  .btn {
+    margin-top: 2rem;
+  }
+}

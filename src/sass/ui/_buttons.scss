@@ -1,0 +1,29 @@
+.btn {
+  display: inline-block;
+  padding: 1em 3em;
+  border-radius: 15px;
+  &--filled {
+    background: $color-primary;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    &:hover {
+      background: $color-secondary;
+    }
+  }
+  &--outline {
+    border: 1px solid $color-light;
+    &:hover {
+      background: $color-light;
+      color: $color-dark;
+    }
+    &.primary {
+      border-color: $color-primary;
+      color: $color-primary;
+      &:hover {
+        background: $color-primary;
+        color: $color-light;
+      }
+    }
+  }
+}

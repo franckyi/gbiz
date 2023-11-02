@@ -1,0 +1,21 @@
+.reviews {
+  &__list {
+    margin-top: 3rem;
+    list-style-type: none;
+  }
+  &__item {
+    width: 360px;
+    padding: 2rem;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+  }
+  &__icon {
+    width: 40px;
+  }
+  &__author {
+    color: gray;
+    font-size: 14px;
+  }
+}

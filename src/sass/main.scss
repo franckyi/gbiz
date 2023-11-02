@@ -1,58 +1,23 @@
+@import "reset";
 @import "variables";
 @import "typography";
 @import "links";
-
-html,
-html *,
-*::after,
-*::before {
-  padding: 0;
-  margin: 0;
-}
+@import "ui/buttons";
+@import "ui/navigation";
+@import "sections/hero";
+@import "sections/services";
+@import "sections/clients";
+@import "sections/reviews";
+@import "sections/results";
+@import "sections/contact";
+@import "sections/footer";
 
 body {
   color: $color-dark;
+  font-size: 18px;
 }
 
-.nav {
-  padding: 0.5rem;
-  background: $color-dark;
-  @media (min-width: 768px) {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  &__link {
-    @media (min-width: 992px) {
-      display: block;
-      min-height: 100%;
-      height: 100%;
-      padding: 1em 2em;
-      &:hover {
-        background: $color-primary;
-      }
-    }
-  }
-}
-
-.hero {
-  height: 100vh;
-  color: $color-light;
-  &__video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    z-index: -1;
-    -webkit-filter: brightness(50%);
-    filter: brightness(50%);
-  }
-  &__content {
-    position: relative;
-    z-index: 9;
-    height: 100%;
-  }
+section {
+  padding: 2rem;
+  text-align: center;
 }
