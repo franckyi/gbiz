@@ -23,9 +23,9 @@ body {
 
 section {
   padding: 5rem 2rem;
+  @media (max-width: 576px) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   text-align: center;
-}
-
-.heading {
-  margin-bottom: 4rem;
 }

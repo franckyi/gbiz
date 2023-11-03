@@ -1,13 +1,30 @@
 .stats {
+  @media (max-width: 576px) {
+    padding: 2rem;
+  }
   background: $color-dark;
   color: $color-light;
   &__list {
+    @media (max-width: 576px) {
+      flex-direction: column;
+      gap: 2rem;
+    }
     display: flex;
     list-style-type: none;
     gap: 2%;
   }
   &__item {
+    @media (max-width: 576px) {
+      max-width: 100%;
+      width: 100%;
+      padding: 1rem 0 1rem 1rem;
+    }
     background: $color-primary;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 160, 219, 1) 0%,
+      rgba(33, 37, 41, 1) 100%
+    );
     width: 25%;
     padding: 2rem;
     border-radius: 5px;

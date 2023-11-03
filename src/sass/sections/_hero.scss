@@ -1,8 +1,10 @@
 .hero {
   height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
   color: $color-light;
   @media (min-width: 992px) {
-    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -24,6 +26,10 @@
     position: relative;
     z-index: 9;
 
+    @media (max-width: 576px) {
+      text-align: center;
+    }
+
     p {
       margin: 2rem auto;
     }
@@ -36,5 +42,13 @@
   &__cta {
     display: flex;
     gap: 5%;
+    @media (max-width: 576px) {
+      flex-direction: column;
+      .btn {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+    }
   }
 }

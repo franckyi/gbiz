@@ -4,6 +4,10 @@
     list-style-type: none;
   }
   &__item {
+    @media (max-width: 576px) {
+      max-width: 100%;
+      width: initial;
+    }
     width: 360px;
     padding: 2rem;
     margin: auto;

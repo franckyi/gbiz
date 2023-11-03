@@ -45,6 +45,7 @@
   &__logo {
     margin: 0 25%;
     &--mobile {
+      position: absolute;
       margin: 0.5rem;
       @media (min-width: 576px) {
         display: none;
