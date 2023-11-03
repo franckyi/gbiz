@@ -11,11 +11,10 @@
   <body>
     <nav class="nav">
       <img class="nav__logo" src="assets/img/logo.png" width="120" alt="Logo G-BIZ" />
-      <a class="nav__link" href="#pomoc">Pomoc</a>
-      <a class="nav__link" href="#oferta">Oferta</a>
-      <a class="nav__link" href="#klienci">Nasi klienci</a>
-      <a class="nav__link" href="#opinie">Opinie</a>
-      <a class="nav__link" href="#kontakt">Kontakt</a>
+      <a class="btn nav__link" href="#oferta">Oferta</a>
+      <a class="btn nav__link" href="#klienci">Nasi klienci</a>
+      <a class="btn nav__link" href="#opinie">Opinie</a>
+      <a class="btn nav__link" href="#kontakt">Kontakt</a>
     </nav>
 
     <header class="hero">
@@ -150,7 +149,7 @@
     
                     <li class="clients__item">
                         <div class="clients__icon-container">
-                            <img class="clients__icon" src="./assets/img/buildings-fill.svg" alt="building icon">
+                            <img class="clients__icon" src="./assets/img/person.svg" alt="building icon">
                         </div>
                         Jednoosobowe działalności
                     </li>
@@ -271,22 +270,22 @@
         <ul class="stats__list">
 
             <li class="stats__item">
-                <div class="stats__number">18</div>
+                <div class="stats__number js-years">0</div>
                 <p>Lat usług w biznesie</p>
             </li>
 
             <li class="stats__item">
-                <div class="stats__number">250<span>+</span></div>
+                <div class="stats__number js-clients">0</div>
                 <p>Podmiotów skorzystało z naszych usług</p>
             </li>
 
             <li class="stats__item">
-                <div class="stats__number">150<span>+</span></div>
+                <div class="stats__number js-startups">0<span>+</span></div>
                 <p>Pomoc w utworzeniu START UP-ów</p>
             </li>
 
             <li class="stats__item">
-                <div class="stats__number">100<span>%</span></div>
+                <div class="stats__number js-satisfied">0<span>%</span></div>
                 <p>Zadowolonych klientów</p>
             </li>
             
@@ -307,7 +306,7 @@
               Zadzwoń
             </a>
             <a class="btn btn--outline primary" href="#oferta">
-              Poznaj naszą ofertę
+              Nasza oferta
             </a>
           </div>
     </section>
@@ -316,6 +315,8 @@
         <img class="footer__logo" src="./assets/img/logo.png" width="180" alt="Logo G-BIZ">
         <p class="footer__text">Copyright &copy; 2017 G-BIZ | Biuro Rachunkowe, Księgowość, Doradztwo Biznesowe <br> Biurowiec Ancora, ul. Pułaskiego 6, Gdynia Śródmieście | Tel.: (+48) 503-758-696, Email: biuro@g-biz.pl</p>
     </footer>
+
+    <script src="src/main.js" type="text/javascript"></script>
 
   </body>
 </html>

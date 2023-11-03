@@ -12,6 +12,10 @@
 @import "sections/contact";
 @import "sections/footer";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: $color-dark;
   font-size: 18px;
