@@ -1,8 +1,14 @@
+const htmlNav = document.getElementById("nav");
+const htmlMenuBtn = document.getElementById("menu-btn");
 const htmlStatsSection = document.getElementById("stats");
 const htmlYears = document.querySelector(".js-years");
 const htmlClients = document.querySelector(".js-clients");
 const htmlStartups = document.querySelector(".js-startups");
 const htmlSatisfied = document.querySelector(".js-satisfied");
+
+function expandMenu() {
+  htmlNav.classList.toggle("expanded");
+}
 
 let years = 0;
 let clients = 0;
